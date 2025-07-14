@@ -1,0 +1,338 @@
+/* Header CSS */
+
+html, body {
+  background-color: #dff3f5;
+}
+
+.btn-primary{
+    color: white;
+    background-color: blueviolet;
+    border-radius: 2px;
+    border: none;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+}
+
+/* Font Design */
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  
+}
+
+
+
+
+
+/* Header div design */
+.header-container{
+    height: 500px;
+    background-image: url(../images/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: top middle;
+    width: 75%;
+    margin: auto ;
+    
+    background-color: white;
+
+}
+/* Hero Container Design */
+.hero-container{
+    background-color: white;
+    height: 330px;
+    width: 75%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    height: 151px;
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+}
+.headline-div{
+    height: 190px;
+    width: 75%;
+    background-color: #FFFFFF;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+   
+}
+.header-headline{
+    text-align: center;
+    font-size: xx-large;
+    
+}
+.btn-primary{
+    height: 48px;
+    width: 132px;
+    text-align: center;
+    background-color: #4E47FF;
+    border-radius: 2px;
+    font-size: 16px;
+  
+}
+.btn-2{
+   height: 35px;
+    width: 140px;
+    text-align: center;
+    background-color: #4E47FF;
+    border-radius: 2px;
+    font-size: 16px;
+     color: white;
+    
+    border-radius: 2px;
+    border: none;
+}
+
+
+
+
+
+
+.image-mini{
+    border-radius: 40px;
+}
+.hero-box{
+  align-items: center;
+  justify-content: center;
+   align-content: center;
+    text-align: left;
+  
+}
+
+.hero-headline{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.btn-3{
+   height: 39px;
+    width: 228px;
+    text-align: center;
+    background-color: #4E47FF;
+    border-radius: 2px;
+    font-size: 18px;
+    font-weight: bold;
+     color: white;
+    
+    border-radius: 4px;
+    border: none;
+} 
+
+/* section-2 design */
+
+.user-main-container{
+    background-color: #dfe2e7;
+    text-align: center;
+    height: 330px;
+    width: 75%;
+    margin: 40px auto;
+    border-radius: 30px;
+    padding-top: 25px;
+    padding-bottom: 100px;
+    justify-items: center;
+   
+   
+    /* display: flex; */
+    justify-content: space-between;
+}
+.user-div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: space-around;
+    gap: 200px;
+    height: 130px;
+    width: 75%;
+    margin: 40px auto
+}
+
+.user-line{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.container-line{
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(18, 18, 18);
+
+}
+.user{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+   margin-bottom: 20px;
+   justify-items: center;
+   height: 150px;
+   /* width: 806px; */
+   
+   
+}
+.span{
+    font-size: 22px;
+    display: block;
+    color: rgb(21, 21, 21);
+}
+/* section-focus */
+
+.section-focus{
+    background-color: #dfe2e7;
+    text-align: center;
+    height: 330px;
+    width: 75%;
+    margin: 40px auto;
+    border-radius: 30px;
+    padding-top: 25px;
+    padding-bottom: 300px;
+    justify-items: center;
+}
+
+
+.footer-button ul {
+    list-style: none;
+    
+    }
+
+.footer-button ul{
+display: flex;
+gap: 20px;
+
+}
+.footer-button button{
+    border: none;
+    font-size: large;
+    background-color:none;
+} 
+
+.footer-div{
+    text-align: center;
+    height: 100px;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    padding-top: 25px;
+    padding-bottom: 200px;
+    justify-items: center;
+   
+}
+
+.footer-para{
+    font-size: large;
+}
+
+/* form style */
+
+.form-div{
+    background-color: #dfe2e7;
+    text-align: left;
+    height: 250px;
+    width: 75%;
+    margin: auto;
+    border-radius: 30px;
+    padding-top: 25px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    justify-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    display: flex;
+}
+.form-headline{
+    width: 50%;
+    height: 200px;
+    font-weight: bolder;
+    font-size: 5em;
+}
+.form-size {
+    width: 400px;
+   height: 300px;
+    /* background-color: aqua; */
+    font-size: x-large;
+
+}  
+.form-box{
+font-size: large;
+padding: 4px 4px 4px 4px;
+border-radius: 6px;
+border-color: none
+
+}    
+
+/* User Says Div styles  */
+
+.says-container{
+    height: 342px;
+    width: 75%;
+    background-color: #dfe2e7;
+    text-align: center;
+    margin: 40px auto; 
+    border-radius: 30px;
+    padding-top: 25px;
+    padding-bottom: 100px;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.small-says-container{
+    height: 243px;
+    width: 367px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* align-content: space-around; */
+    gap: 200px;
+    /* height: 130px;
+    width: 806px; */
+}
+
+.says-div{
+    height: 43px;
+    width: 318px;
+}
+
+.reviewer{
+    display: flex;
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* align-content: center; */
+    align-items: center;
+
+}
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+/* .says-div{
+    height: 243px;
+    width: 367px;
+} */
+.testimonials {
+  padding: 3rem 2rem;
+  text-align: center;
+  display: flex;
+}
+.btn-4{
+    height: 39px;
+    width: 160px;
+    text-align: center;
+    background-color: #4E47FF;
+    border-radius: 2px;
+    font-size: 18px;
+    font-weight: bold;
+     color: white;
+    
+    border-radius: 4px;
+    border: none;
+}
